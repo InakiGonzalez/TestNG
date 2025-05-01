@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BankAccountSuite">
+    <test name="NegativeTests">
+        <groups>
+            <run>
+                <include name="negative-tests"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="BankAccountTest"/>
+        </classes>
+    </test>
+</suite>
